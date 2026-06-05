@@ -1,0 +1,526 @@
+{
+  "version": "30.1.1",
+  "pages": [
+    {
+      "id": "k3yXU7mKAQI5ysQAY9sg",
+      "name": "Страница-1",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-60",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-108",
+          "target": "U_GnrgJ55iM5rMPj6IlK-58"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-80",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-108",
+          "target": "U_GnrgJ55iM5rMPj6IlK-69"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-105",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-108",
+          "target": "U_GnrgJ55iM5rMPj6IlK-19"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Memory"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-131",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-3",
+          "target": "U_GnrgJ55iM5rMPj6IlK-108"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-3",
+          "type": "node",
+          "parent": "1",
+          "label": "IN"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-4",
+          "type": "node",
+          "parent": "1",
+          "label": "OUT"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-13",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-9",
+          "target": "U_GnrgJ55iM5rMPj6IlK-4"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-17",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-9",
+          "target": "U_GnrgJ55iM5rMPj6IlK-1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-122",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-9",
+          "target": "U_GnrgJ55iM5rMPj6IlK-3"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-124",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-9",
+          "target": "U_GnrgJ55iM5rMPj6IlK-1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-126",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-9",
+          "target": "U_GnrgJ55iM5rMPj6IlK-4"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-9",
+          "type": "node",
+          "parent": "1",
+          "label": "Address Decoder"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-16",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-15",
+          "target": "U_GnrgJ55iM5rMPj6IlK-9"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-15",
+          "type": "node",
+          "parent": "1",
+          "label": "MUX"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-22",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-129",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-18",
+          "target": "U_GnrgJ55iM5rMPj6IlK-127"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-18",
+          "type": "node",
+          "parent": "1",
+          "label": "Programm Counter"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-21",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-19",
+          "target": "U_GnrgJ55iM5rMPj6IlK-18"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-19",
+          "type": "node",
+          "parent": "1",
+          "label": "MUX"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-27",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-26",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-27",
+          "label": "Registers"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-24",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-27",
+          "label": "Data: D0-D7"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-25",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-27",
+          "label": "Address: A0-A7(SP)"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-28",
+          "type": "edge",
+          "parent": "1",
+          "target": "U_GnrgJ55iM5rMPj6IlK-15"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-30",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-31",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-30",
+          "label": "CU"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-39",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-40",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-39",
+          "label": "CU"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-43",
+          "type": "edge",
+          "parent": "1",
+          "target": "U_GnrgJ55iM5rMPj6IlK-1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-44",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-43",
+          "label": "CU"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-45",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-46",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-45",
+          "label": "CU"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-59",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-58",
+          "target": "U_GnrgJ55iM5rMPj6IlK-5"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-82",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-58",
+          "target": "U_GnrgJ55iM5rMPj6IlK-81"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-58",
+          "type": "node",
+          "parent": "1",
+          "label": "Instruction Register"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-61",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-5",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-61",
+          "label": "Control Unit"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-47",
+          "type": "edge",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-61"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-51",
+          "type": "edge",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-61"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-52",
+          "type": "edge",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-61"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-53",
+          "type": "edge",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-61"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-55",
+          "type": "edge",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-61"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-56",
+          "type": "edge",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-61"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-57",
+          "type": "edge",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-61"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-87",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-68",
+          "target": "U_GnrgJ55iM5rMPj6IlK-84"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-106",
+          "type": "edge",
+          "parent": "1",
+          "target": "U_GnrgJ55iM5rMPj6IlK-19"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-132",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-68",
+          "target": "U_GnrgJ55iM5rMPj6IlK-92"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-68",
+          "type": "node",
+          "parent": "1",
+          "label": "ALU"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-69",
+          "type": "node",
+          "parent": "1",
+          "label": "MUX A/B"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-72",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-69"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-73",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-69",
+          "target": "U_GnrgJ55iM5rMPj6IlK-68"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-75",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-76",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-75",
+          "label": "CU"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-77",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-78",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-77",
+          "label": "CU"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-79",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-26",
+          "target": "U_GnrgJ55iM5rMPj6IlK-69"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-83",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-81",
+          "target": "U_GnrgJ55iM5rMPj6IlK-69"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-120",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-81",
+          "target": "U_GnrgJ55iM5rMPj6IlK-112"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-81",
+          "type": "node",
+          "parent": "1",
+          "label": "Sign/Zero\nExtender",
+          "html": "Sign/Zero<div>Extender</div>"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-88",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-84",
+          "target": "U_GnrgJ55iM5rMPj6IlK-5"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-84",
+          "type": "node",
+          "parent": "1",
+          "label": "Status Register\nFlags: NZVC",
+          "html": "Status Register<div>Flags: NZVC</div>"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-123",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-89",
+          "target": "U_GnrgJ55iM5rMPj6IlK-9"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-89",
+          "type": "node",
+          "parent": "1",
+          "label": "MUX"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-90",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-91",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-90",
+          "label": "CU"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-99",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-92",
+          "target": "U_GnrgJ55iM5rMPj6IlK-26"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-92",
+          "type": "node",
+          "parent": "1",
+          "label": "MUX"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-93",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-94",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-93",
+          "label": "CU"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-104",
+          "type": "edge",
+          "parent": "1",
+          "target": "U_GnrgJ55iM5rMPj6IlK-89"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-109",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-1",
+          "target": "U_GnrgJ55iM5rMPj6IlK-108"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-134",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-108",
+          "target": "U_GnrgJ55iM5rMPj6IlK-92"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-108",
+          "type": "node",
+          "parent": "1",
+          "label": "MDR"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-110",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-111",
+          "type": "node",
+          "parent": "U_GnrgJ55iM5rMPj6IlK-110",
+          "label": "CU"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-121",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-112",
+          "target": "U_GnrgJ55iM5rMPj6IlK-15"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-135",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-112"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-112",
+          "type": "node",
+          "parent": "1",
+          "label": "AGU"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-119",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-26",
+          "target": "U_GnrgJ55iM5rMPj6IlK-112"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-130",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-127",
+          "target": "U_GnrgJ55iM5rMPj6IlK-19"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-127",
+          "type": "node",
+          "parent": "1",
+          "label": "SM"
+        },
+        {
+          "id": "U_GnrgJ55iM5rMPj6IlK-133",
+          "type": "edge",
+          "parent": "1",
+          "source": "U_GnrgJ55iM5rMPj6IlK-26",
+          "target": "U_GnrgJ55iM5rMPj6IlK-89"
+        }
+      ]
+    }
+  ]
+}
