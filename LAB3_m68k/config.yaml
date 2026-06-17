@@ -1,0 +1,15 @@
+name: "base64_decoding"
+limit: 5000
+memory_size: 0x1000
+memory_mapped_io:
+  0x80: [83, 71, 86, 115, 98, 71, 56, 103, 100, 50, 57, 121, 98, 71, 81, 104, 10]
+  0x84: []
+reports:
+  - name: Result
+    slice: last
+    filter:
+      - state
+    view: |
+      numio[0x84]: {io:0x84:sym}
+    assert: |
+      numio[0x84]: "" >>> "Hello world!"

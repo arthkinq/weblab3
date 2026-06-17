@@ -1,0 +1,6 @@
+limit: 100000
+memory_size: 8192
+
+memory_mapped_io:
+  0x80: [48, 18, 0]
+  0x84: []
